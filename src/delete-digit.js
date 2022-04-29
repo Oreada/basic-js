@@ -12,7 +12,6 @@ const { NotImplementedError } = require('../extensions/index.js');
  *
  */
 function deleteDigit(int) {
-  debugger;
   let intArr = (String(int)).split('');
   let maxNum = 0;
 
